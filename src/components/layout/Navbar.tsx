@@ -1,12 +1,12 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { 
-  ShoppingCart, 
-  Menu, 
-  Search, 
-  X, 
-  User 
+import {
+  ShoppingCart,
+  Menu,
+  Search,
+  X,
+  User
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold text-brand-purple mr-6">ElectroMart</Link>
+            <Link to="/" className="text-2xl font-bold text-brand-purple mr-6">The Bold Move</Link>
           </div>
 
           {/* Desktop Navigation */}
@@ -37,9 +37,6 @@ const Navbar = () => {
               </Link>
               <Link to="/deals" className="text-sm font-medium hover:text-brand-purple transition-colors">
                 Deals
-              </Link>
-              <Link to="/new-arrivals" className="text-sm font-medium hover:text-brand-purple transition-colors">
-                New Arrivals
               </Link>
             </nav>
           )}
@@ -66,18 +63,16 @@ const Navbar = () => {
             )}
 
             <Link to="/account">
-              <Button variant="ghost" size="icon">
-                <User size={20} />
-              </Button>
+
             </Link>
-            
+
             <Link to="/cart">
               <Button variant="ghost" size="icon" className="relative">
                 <ShoppingCart size={20} />
                 <span className="absolute -top-1 -right-1 bg-brand-purple text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">2</span>
               </Button>
             </Link>
-            
+
             {/* Mobile menu */}
             {isMobile && (
               <Sheet>
@@ -96,9 +91,6 @@ const Navbar = () => {
                     </Link>
                     <Link to="/deals" className="text-lg font-medium hover:text-brand-purple transition-colors">
                       Deals
-                    </Link>
-                    <Link to="/new-arrivals" className="text-lg font-medium hover:text-brand-purple transition-colors">
-                      New Arrivals
                     </Link>
                   </nav>
                 </SheetContent>

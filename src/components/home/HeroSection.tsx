@@ -18,7 +18,7 @@ const HeroSection = () => {
               <Button size="lg" className="bg-white text-brand-purple hover:bg-gray-100">
                 Shop Now
               </Button>
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+              <Button size="lg" variant="outline" className="text-white border-white bg-brand-purple hover:bg-white/10">
                 Explore Deals
               </Button>
             </div>
@@ -26,13 +26,13 @@ const HeroSection = () => {
           <div className="hidden md:block">
             <img
               src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMzczODV8MHwxfHNlYXJjaHwxfHxlbGVjdHJvbmljc3xlbnwwfHx8fDE3MTM4OTUzNDZ8MA&ixlib=rb-4.0.3&q=80&w=1080"
-              alt="Featured Electronics" 
+              alt="Featured Electronics"
               className="rounded-lg shadow-2xl transform hover:scale-105 transition-transform duration-700 ease-in-out"
             />
           </div>
         </div>
       </div>
-      
+
       {/* Decorative elements */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-white/10 to-transparent"></div>
       <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-black/20 to-transparent"></div>
