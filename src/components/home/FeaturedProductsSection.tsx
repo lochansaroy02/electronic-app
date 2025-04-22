@@ -1,4 +1,3 @@
-
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import ProductCard, { Product } from "../product/ProductCard";
 
@@ -6,80 +5,63 @@ import ProductCard, { Product } from "../product/ProductCard";
 const products: Product[] = [
   {
     id: "1",
-    name: "OnePlus Nord CE 3 Lite 5G (8GB RAM, 128GB Storage)",
+    name: "Intel Core i7-13700K Desktop Processor",
+    price: 32999,
+    originalPrice: 38999,
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    category: "computer-parts",
+    isFeatured: true,
+    discountPercentage: 15
+  },
+  {
+    id: "2",
+    name: "TP-Link Archer AX6000 WiFi 6 Router",
     price: 19999,
     originalPrice: 24999,
-    image: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    category: "smartphones",
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    category: "networking",
     isFeatured: true,
     discountPercentage: 20
   },
   {
-    id: "2",
-    name: "HP Pavilion 14 12th Gen Intel Core i5 16GB RAM/512GB SSD 14 inch(35.6 cm) FHD Micro-Edge Display",
-    price: 58990,
-    originalPrice: 76000,
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMzczODV8MHwxfHNlYXJjaHwxfHxsYXB0b3B8ZW58MHx8fHwxNzEzODk1MzQ2fDA&ixlib=rb-4.0.3&q=80&w=1080",
-    category: "laptops",
-    isFeatured: true,
-    discountPercentage: 22
-  },
-  {
     id: "3",
-    name: "boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with 42H Playtime",
-    price: 1499,
-    originalPrice: 4999,
-    image: "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    category: "audio",
+    name: "Samsung 970 EVO Plus 1TB NVMe SSD",
+    price: 8499,
+    originalPrice: 11999,
+    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    category: "storage",
     isFeatured: true,
-    discountPercentage: 70
+    discountPercentage: 29
   },
   {
     id: "4",
-    name: "Sony Alpha 7M4K Full-Frame Hybrid Camera - 33MP, 8x, 4K 60p",
-    price: 214990,
-    originalPrice: 239990,
-    image: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    category: "cameras",
-    isFeatured: true
+    name: "APC BX1100C-IN UPS 1100VA/660W",
+    price: 5999,
+    originalPrice: 7499,
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    category: "power-supplies",
+    isFeatured: true,
+    discountPercentage: 20
   },
   {
     id: "5",
-    name: "Echo Dot (5th Gen) | Smart speaker with Alexa",
-    price: 4999,
+    name: "D-Link CAT6 Ethernet Cable (305m)",
+    price: 4499,
     originalPrice: 5999,
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    category: "smart-home",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    category: "cables",
     isNew: true,
     isFeatured: true
   },
   {
     id: "6",
-    name: "Sony PlayStation 5 Console (PS5) Slim Edition with Astro's Playroom",
-    price: 54990,
-    originalPrice: 59990,
-    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    category: "gaming",
-    isFeatured: true
-  },
-  {
-    id: "7",
-    name: "Samsung Galaxy S24 Ultra 5G (12GB, 256GB) 200MP Camera",
-    price: 124999,
-    originalPrice: 134999,
-    image: "https://images.unsplash.com/photo-1643016749310-047ba4ab0ecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    category: "smartphones",
-    isNew: true,
-    isFeatured: true
-  },
-  {
-    id: "8",
-    name: "Apple MacBook Air M2 Chip (8GB, 256GB SSD)",
-    price: 89990,
-    originalPrice: 99990,
-    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    category: "laptops",
-    isFeatured: true
+    name: "Fluke 117 Digital Multimeter",
+    price: 12999,
+    originalPrice: 14999,
+    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    category: "tools",
+    isFeatured: true,
+    discountPercentage: 13
   }
 ];
 

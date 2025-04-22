@@ -4,40 +4,40 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const categories = [
   {
-    id: "laptops",
-    name: "Laptops & Computers",
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMzczODV8MHwxfHNlYXJjaHwxfHxsYXB0b3B8ZW58MHx8fHwxNzEzODk1MzQ2fDA&ixlib=rb-4.0.3&q=80&w=1080",
-    count: 120
+    id: "computer-parts",
+    name: "Computer Parts & Components",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    count: 150
   },
   {
-    id: "smartphones",
-    name: "Smartphones & Accessories",
-    image: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    id: "networking",
+    name: "Networking & Security",
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    count: 85
+  },
+  {
+    id: "storage",
+    name: "Storage & Drives",
+    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     count: 95
   },
   {
-    id: "audio",
-    name: "Audio & Headphones",
-    image: "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    count: 78
+    id: "power-supplies",
+    name: "Power Supplies & UPS",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    count: 60
   },
   {
-    id: "cameras",
-    name: "Cameras & Photography",
-    image: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    count: 45
+    id: "cables",
+    name: "Cables & Connectors",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    count: 120
   },
   {
-    id: "smart-home",
-    name: "Smart Home Devices",
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    count: 63
-  },
-  {
-    id: "gaming",
-    name: "Gaming & Consoles",
-    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    count: 52
+    id: "tools",
+    name: "Tools & Testing Equipment",
+    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    count: 75
   }
 ];
 
