@@ -12,7 +12,7 @@ const Footer = () => {
               Your one-stop destination for premium electronic products at competitive prices.
             </p>
           </div>
-          
+
           <div>
             <h4 className="font-medium text-sm uppercase tracking-wide mb-4">Shop</h4>
             <ul className="space-y-2">
@@ -38,7 +38,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="font-medium text-sm uppercase tracking-wide mb-4">Support</h4>
             <ul className="space-y-2">
@@ -64,7 +64,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="font-medium text-sm uppercase tracking-wide mb-4">Company</h4>
             <ul className="space-y-2">
@@ -86,7 +86,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-200 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-600">
@@ -94,7 +94,7 @@ const Footer = () => {
             </p>
             <div className="mt-4 md:mt-0">
               <p className="text-sm text-gray-600">
-                Made in India | Prices in ₹
+                Made in India
               </p>
             </div>
           </div>
